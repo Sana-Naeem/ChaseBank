@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-24T22:31:37Z" name="Default suite" finished-at="2022-01-24T22:31:57Z" duration-ms="20386">
+    <groups>
+    </groups>
+    <test started-at="2022-01-24T22:31:37Z" name="Default test" finished-at="2022-01-24T22:31:57Z" duration-ms="20386">
+      <class name="chase.bank.tests.Testing">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-01-24T22:31:37Z" name="setUp" finished-at="2022-01-24T22:31:51Z" duration-ms="13996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="creditCardButtonTest()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-01-24T22:31:51Z" name="creditCardButtonTest" finished-at="2022-01-24T22:31:57Z" duration-ms="6001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditCardButtonTest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-01-24T22:31:57Z" name="tearUp" finished-at="2022-01-24T22:31:57Z" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- chase.bank.tests.Testing -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
