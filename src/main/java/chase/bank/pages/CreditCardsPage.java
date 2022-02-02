@@ -10,16 +10,16 @@ import chase.bank.base.Base_class;
 public class CreditCardsPage {
 
 	public CreditCardsPage(WebDriver driver) {
-	PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver, this);
 	}
-	
-	@FindBy (xpath = "//div[@class='carousel--custom-pager__link' and text()='Credit Cards']//parent::a[@tabindex='0']")
+
+	@FindBy(xpath = "//div[@class='carousel--custom-pager__link' and text()='Credit Cards']//parent::a[@tabindex='0']")
 	public WebElement creditCardsButton;
-	
+
 	private void clickCreditCardStep() {
 		Base_class.common_methods.click(creditCardsButton);
 	}
-	
+
 	public void creditCardsPageSteps() {
 		clickCreditCardStep();
 	}

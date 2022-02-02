@@ -27,7 +27,7 @@ public class Common_waits {
 			Assert.fail();
 		}
 	}
-	
+
 	public void waitUntilSelectable(WebElement element) {
 		try {
 			Base_class.wait.until(ExpectedConditions.elementToBeSelected(element));

@@ -56,7 +56,7 @@ public class Base_class {
 		common_methods = new Common_methods();
 
 		creditCardsPage = new CreditCardsPage(driver);
-		applyNowPage = new ApplyNowPage (driver);
+		applyNowPage = new ApplyNowPage(driver);
 		freedomUnlimitedAppPage = new FreedomUnlimitedAppPage(driver);
 	}
 

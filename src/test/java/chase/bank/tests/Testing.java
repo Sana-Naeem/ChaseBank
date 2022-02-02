@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import chase.bank.base.Base_class;
 
 public class Testing extends Base_class {
-	
+
 	@Test
 	public void creditCardPageTest() throws InterruptedException {
 		creditCardsPage.creditCardsPageSteps();
@@ -13,9 +13,6 @@ public class Testing extends Base_class {
 		Thread.sleep(15000);
 		freedomUnlimitedAppPage.FreedomUnlimitedSteps("Let's get started.");
 		Thread.sleep(5000);
-		
-		
-		
+
 	}
 }
-
