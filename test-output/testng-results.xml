@@ -2,29 +2,28 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-02T00:17:24Z" name="Default suite" finished-at="2022-02-02T00:19:06Z" duration-ms="101923">
+  <suite started-at="2022-02-03T22:36:01Z" name="Default suite" finished-at="2022-02-03T22:37:49Z" duration-ms="107872">
     <groups>
     </groups>
-    <test started-at="2022-02-02T00:17:24Z" name="Default test" finished-at="2022-02-02T00:19:06Z" duration-ms="101923">
+    <test started-at="2022-02-03T22:36:01Z" name="Default test" finished-at="2022-02-03T22:37:49Z" duration-ms="107872">
       <class name="chase.bank.tests.Testing">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-02T00:17:24Z" name="setUp" finished-at="2022-02-02T00:17:41Z" duration-ms="16873" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-03T22:36:01Z" name="setUp" finished-at="2022-02-03T22:36:12Z" duration-ms="11248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="creditCardPageTest()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-02T00:17:41Z" name="creditCardPageTest" finished-at="2022-02-02T00:19:05Z" duration-ms="84458" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method signature="creditCardPageTest()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-03T22:36:12Z" name="creditCardPageTest" finished-at="2022-02-03T22:37:48Z" duration-ms="96168" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //h1[@class='H2 field-mb-30 field-mt-0']' (tried for 30 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //h1[@class='H2 field-mb-30 field-mt-0']' (tried for 30 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at chase.bank.common.Common_waits.waitUntilVisible(Common_waits.java:23)
-at chase.bank.common.Common_methods.getText(Common_methods.java:27)
-at chase.bank.pages.FreedomUnlimitedAppPage.getTextFreedomUnlimitedStep(FreedomUnlimitedAppPage.java:19)
-at chase.bank.pages.FreedomUnlimitedAppPage.FreedomUnlimitedSteps(FreedomUnlimitedAppPage.java:23)
-at chase.bank.tests.Testing.creditCardPageTest(Testing.java:14)
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at chase.bank.common.Common_methods.writeText(Common_methods.java:46)
+at chase.bank.pages.ApplicantDetailsPage.enterFirstNameStep(ApplicantDetailsPage.java:22)
+at chase.bank.pages.ApplicantDetailsPage.applicantInfoSteps(ApplicantDetailsPage.java:30)
+at chase.bank.tests.Testing.creditCardPageTest(Testing.java:13)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -50,47 +49,13 @@ at org.testng.TestNG.run(TestNG.java:1017)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[@class='H2 field-mb-30 field-mt-0']"}
-  (Session info: chrome=97.0.4692.99)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'Sanas-Air', ip: 'fe80:0:0:0:4ed:f2dc:9199:a9a0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0a32b70e58597eb9ac10c56c5c07f95c, findElement {using=xpath, value=//h1[@class='H2 field-mb-30 field-mt-0']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /var/folders/2q/13m492rd6xj...}, goog:chromeOptions: {debuggerAddress: localhost:57369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57369/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0a32b70e58597eb9ac10c56c5c07f95c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-... 30 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creditCardPageTest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-02T00:19:05Z" name="tearUp" finished-at="2022-02-02T00:19:06Z" duration-ms="478" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-03T22:37:48Z" name="tearUp" finished-at="2022-02-03T22:37:49Z" duration-ms="399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->

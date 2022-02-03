@@ -12,7 +12,7 @@ public class ApplyNowPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath = "(//a[@class='button learn-more-btn hoverImgSwap chaseanalytics-track-link mvt-applynow' and text()='Apply Now'])[1]")
+	@FindBy(xpath = "(//a[@class='button learn-more-btn hoverImgSwap chaseanalytics-track-link mvt-applynow'])[1]")
 	public WebElement applyNowButton;
 
 	private void clickApplyNowStep() {

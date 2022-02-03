@@ -12,11 +12,11 @@ public class FreedomUnlimitedAppPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath = "//h1[@class='H2 field-mb-30 field-mt-0']")
-	public WebElement pageHeading;
+	@FindBy(xpath = "//p[text()='No annual fee']")
+	public WebElement annualFeeHeading;
 
 	private void getTextFreedomUnlimitedStep(String expected) {
-		Base_class.common_methods.getText(pageHeading, expected);
+		Base_class.common_methods.getText(annualFeeHeading, expected);
 
 	}
 

@@ -8,11 +8,9 @@ public class Testing extends Base_class {
 	@Test
 	public void creditCardPageTest() throws InterruptedException {
 		creditCardsPage.creditCardsPageSteps();
-		Thread.sleep(3000);
 		applyNowPage.applyNowPageSteps();
-		Thread.sleep(15000);
-		freedomUnlimitedAppPage.FreedomUnlimitedSteps("Let's get started.");
-		Thread.sleep(5000);
+		freedomUnlimitedAppPage.FreedomUnlimitedSteps("No annual fee");
+		applicantDetailsPage.applicantInfoSteps("Natalie", "Lopez");
 
 	}
 }

@@ -13,7 +13,7 @@ public class Common_methods {
 		try {
 			Base_class.common_waits.waitUntilClickable(element);
 			element.click();
-			// Java_logger.getLog(element + " clicked");
+			//Java_logger.getLog(element + " clicked");
 		} catch (NullPointerException | NoSuchElementException e) {
 			e.printStackTrace();
 			// Java_logger.getLog(element + " Element Not Found");
@@ -23,7 +23,7 @@ public class Common_methods {
 
 	public String getText(WebElement element, String expected) {
 		try {
-			Base_class.common_waits.waitUntilVisible(element);
+			//Base_class.common_waits.waitUntilVisible(element); ---was not working before to get text when comment out it work why?
 			// Java_logger.getLog("Actual value : " + element.getText() +" >>><<< Expected
 			// value : "+ expected);
 			Assert.assertEquals(element.getText(), expected);

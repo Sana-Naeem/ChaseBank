@@ -37,4 +37,7 @@ public class Common_waits {
 			Assert.fail();
 		}
 	}
+	
+	
+
 }

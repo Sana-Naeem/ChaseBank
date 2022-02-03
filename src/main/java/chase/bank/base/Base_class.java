@@ -11,6 +11,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import chase.bank.common.Common_methods;
 import chase.bank.common.Common_waits;
+import chase.bank.pages.ApplicantDetailsPage;
 import chase.bank.pages.ApplyNowPage;
 import chase.bank.pages.CreditCardsPage;
 import chase.bank.pages.FreedomUnlimitedAppPage;
@@ -27,6 +28,7 @@ public class Base_class {
 	public CreditCardsPage creditCardsPage;
 	public ApplyNowPage applyNowPage;
 	public FreedomUnlimitedAppPage freedomUnlimitedAppPage;
+	public ApplicantDetailsPage applicantDetailsPage;
 
 	@BeforeMethod
 	public void setUp() {
@@ -58,6 +60,7 @@ public class Base_class {
 		creditCardsPage = new CreditCardsPage(driver);
 		applyNowPage = new ApplyNowPage(driver);
 		freedomUnlimitedAppPage = new FreedomUnlimitedAppPage(driver);
+		applicantDetailsPage = new ApplicantDetailsPage(driver);
 	}
 
 }
