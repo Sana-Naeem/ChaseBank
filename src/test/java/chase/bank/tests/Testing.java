@@ -9,7 +9,7 @@ public class Testing extends Base_class {
 	public void creditCardPageTest() throws InterruptedException {
 		creditCardsPage.creditCardsPageSteps();
 		applyNowPage.applyNowPageSteps();
-		freedomUnlimitedAppPage.FreedomUnlimitedSteps("No annual fee");
+		freedomUnlimitedAppPage.FreedomUnlimitedSteps("Let's get started.");
 		applicantDetailsPage.applicantInfoSteps("Natalie", "Lopez");
 
 	}
