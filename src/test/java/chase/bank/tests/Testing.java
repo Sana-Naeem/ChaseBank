@@ -2,6 +2,7 @@ package chase.bank.tests;
 
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import chase.bank.base.Base_class;
 
 public class Testing extends Base_class {
