@@ -3,6 +3,7 @@ package chase.bank.common;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.JavascriptException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
@@ -51,7 +52,7 @@ public class Common_methods {
 
 	public void selectDropDown(WebElement element, String value) {
 		try {
-			Base_class.common_waits.waitUntilSelectable(element);
+			// Base_class.common_waits.waitUntilSelectable(element);
 			Select select = new Select(element);
 			select.selectByValue(value);
 			Java_logger.getLog(value + " : Passed for the element, " + element);
@@ -72,10 +73,23 @@ public class Common_methods {
 			Assert.fail();
 		}
 	}
-	
+
 	public void switchWindow() {
-	List<String> windows = new ArrayList <String>(Base_class.driver.getWindowHandles());
+		List<String> windows = new ArrayList<String>(Base_class.driver.getWindowHandles());
 		Base_class.driver.switchTo().window(windows.get(1));
+	}
+
+	public void selectRadioButton(WebElement element) {
+		try {
+			//Base_class.common_waits.waitUntilSelectable(element);
+			element.isSelected();
+			Java_logger.getLog(element + ":Selected by visibility" + element);
+		} catch (ElementClickInterceptedException e) {
+			e.printStackTrace();
+			Java_logger.getLog("Element not found");
+			Assert.fail();
+
+		}
 	}
 
 	public void sleep(int sec) {

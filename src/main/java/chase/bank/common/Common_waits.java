@@ -1,12 +1,10 @@
 package chase.bank.common;
 
-import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
 import chase.bank.base.Base_class;
-import chase.bank.reporting.Java_logger;
 
 public class Common_waits {
 

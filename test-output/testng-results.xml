@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[https://secure03b.chase.com/web/oao/application/card?sourceCode=GN4X&action=guest#/origination/cardDetails/index/initiateConFullApp;cellCode=61DS;cfgCode=FULLAPPCONCC;channel=C30;sourceCode=GN4X;AOC=6610;RPC=0509;combo=Y;params=,,,no,no,,,240d9444-1a83-4e88-83cc-d38f9a033a25<br>]]>
-    </line>
-    <line>
-      <![CDATA[Account Application - Credit Card - chase.com<br>]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-02-09T00:49:33Z" name="SmokeSuit" finished-at="2022-02-09T00:50:35Z" duration-ms="62520">
+  <suite started-at="2022-02-09T21:43:20Z" name="Default suite" finished-at="2022-02-09T21:44:22Z" duration-ms="61813">
     <groups>
     </groups>
-    <test started-at="2022-02-09T00:49:33Z" name="SmokeTest" finished-at="2022-02-09T00:50:35Z" duration-ms="62520">
+    <test started-at="2022-02-09T21:43:20Z" name="Default test" finished-at="2022-02-09T21:44:22Z" duration-ms="61813">
       <class name="chase.bank.tests.Testing">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-09T00:49:33Z" name="setUp" finished-at="2022-02-09T00:49:49Z" duration-ms="16188" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-09T21:43:20Z" name="setUp" finished-at="2022-02-09T21:43:29Z" duration-ms="9596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="creditCardPageTest()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-09T00:49:49Z" name="creditCardPageTest" finished-at="2022-02-09T00:50:35Z" duration-ms="45764" status="PASS">
+        <test-method signature="creditCardPageTest()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-09T21:43:29Z" name="creditCardPageTest" finished-at="2022-02-09T21:44:21Z" duration-ms="51755" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[https://secure03b.chase.com/web/oao/application/card?sourceCode=GN4X&action=guest#/origination/cardDetails/index/initiateConFullApp;cellCode=61DS;cfgCode=FULLAPPCONCC;channel=C30;sourceCode=GN4X;AOC=6610;RPC=0509;combo=Y;params=,,,no,no,,,240d9444-1a83-4e88-83cc-d38f9a033a25<br>]]>
-            </line>
-            <line>
-              <![CDATA[Account Application - Credit Card - chase.com<br>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- creditCardPageTest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-09T00:50:35Z" name="tearUp" finished-at="2022-02-09T00:50:35Z" duration-ms="481" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-09T21:44:21Z" name="tearUp" finished-at="2022-02-09T21:44:22Z" duration-ms="412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
       </class> <!-- chase.bank.tests.Testing -->
-    </test> <!-- SmokeTest -->
-  </suite> <!-- SmokeSuit -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import chase.bank.base.Base_class;
-import chase.bank.reporting.Logger;
+//import chase.bank.reporting.Logger;
 
 public class FreedomUnlimitedAppPage {
 	public FreedomUnlimitedAppPage(WebDriver driver) {
@@ -25,8 +25,8 @@ public class FreedomUnlimitedAppPage {
 		Base_class.common_methods.sleep(15);
 		Base_class.common_methods.switchWindow();
 		Base_class.common_methods.sleep(5);
-		Logger.log(Base_class.driver.getCurrentUrl());
-		Logger.log(Base_class.driver.getTitle());
+		//Logger.log(Base_class.driver.getCurrentUrl()); (for debugging purpose)
+		//Logger.log(Base_class.driver.getTitle());
 		getTextFreedomUnlimitedStep(pageHeading, expected);
 	}
 }
