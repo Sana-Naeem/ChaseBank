@@ -20,7 +20,6 @@ public class ApplicantDetailsPage {
 	
 	private void enterFirstNameStep(String value) {
 		Base_class.common_methods.scrollIntoViewTheElement(enterFirstName);
-		Base_class.common_methods.click(enterFirstName);
 		Base_class.common_methods.writeText(enterFirstName, value);
 	}
 

@@ -1,5 +1,6 @@
 package chase.bank.common;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.JavascriptException;
@@ -70,6 +71,11 @@ public class Common_methods {
 			Java_logger.getLog("Scrolling into element : " + element + ", Failed");
 			Assert.fail();
 		}
+	}
+	
+	public void switchWindow() {
+	List<String> windows = new ArrayList <String>(Base_class.driver.getWindowHandles());
+		Base_class.driver.switchTo().window(windows.get(1));
 	}
 
 	public void sleep(int sec) {
