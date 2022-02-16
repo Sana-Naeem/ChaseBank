@@ -6,11 +6,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import chase.bank.base.Base_class;
+import chase.bank.data.ApplicantInfoDataClass;
 
 public class ApplicantDetailsPage {
 
 	public ApplicantDetailsPage(WebDriver driver) {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver, this); 
 	}
 
 	@FindBy(xpath = "//input[@id='blx-nameBlock-firstName-text-validate-input-field']")
@@ -176,8 +177,33 @@ public class ApplicantDetailsPage {
 		addUserStep();
 		balanceTransferStep();
 		agreementStep();
-		clickSumbitButtonStep();
+		clickSumbitButtonStep(); 
+	}
 	
+	public void applicantInfoSteps(ApplicantInfoDataClass applicantData) {
+		enterFirstNameStep(applicantData.getFirstName());
+		enterLastNameStep(applicantData.getLastName());
+		selectSuffixStep(applicantData.getSuffixValue());
+		inputDobStep(applicantData.getDob());
+		enterMothersNameStep(applicantData.getMothersName());
+		selectTaxIdStep(applicantData.getTaxID());
+		enterSocial(applicantData.getSocialSecurityNum());
+		selectAddressTypeStep(applicantData.getAddressType());
+		enterStreetAddressStep(applicantData.getStreetAddress());
+		enterZipCodeStep(applicantData.getZipCode());
+		enterCityStep(applicantData.getCity());
+		selectStateStep(applicantData.getState());
+		enterEmailStep(applicantData.getEmail());
+		enterPhoneNumStep(applicantData.getPhoneNum());
+		authorizationStep();
+		residenceStep(applicantData.getResidence());
+		incomeStep(applicantData.getIncome());
+		grossIncomeStep(applicantData.getGrossIncome());
+		goPaperlessStep();
+		addUserStep();
+		balanceTransferStep(); 
+		agreementStep();
+		clickSumbitButtonStep();
 	}
 	
 }

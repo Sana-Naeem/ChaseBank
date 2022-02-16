@@ -1,16 +1,27 @@
 package chase.bank.common;
 
+import java.io.File;
+import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.JavascriptException;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+
+import com.google.common.io.Files;
+
 import chase.bank.base.Base_class;
 import chase.bank.reporting.Java_logger;
+import chase.bank.reporting.Logger;
 
 public class Common_methods {
 
@@ -81,7 +92,7 @@ public class Common_methods {
 
 	public void selectRadioButton(WebElement element) {
 		try {
-			//Base_class.common_waits.waitUntilSelectable(element);
+			// Base_class.common_waits.waitUntilSelectable(element);
 			element.isSelected();
 			Java_logger.getLog(element + ":Selected by visibility" + element);
 		} catch (ElementClickInterceptedException e) {
@@ -92,6 +103,24 @@ public class Common_methods {
 		}
 	}
 
+	public static String addScreenShotToLocal(String testName) {
+		Date date = new Date();
+		DateFormat dateFormat = new SimpleDateFormat("MM.dd.yyyy_HH.mm.ss");
+		String dateString = dateFormat.format(date);
+
+		File newScreenShot = new File("screenShots/" + testName + "_" + dateString + "_errorShot.png");
+		TakesScreenshot screenshot = (TakesScreenshot) Base_class.driver;
+		File srcLocation = screenshot.getScreenshotAs(OutputType.FILE);
+		try {
+			Files.copy(srcLocation, new File(newScreenShot.getAbsolutePath()));
+			Logger.log("Error Occured!!! \n" + "Screenshot has been saved here :" + newScreenShot.getAbsolutePath());
+		} catch (IOException e) {
+			e.printStackTrace();
+			Logger.log("Screenshot cannot saved \n" + e.getLocalizedMessage());
+		} 
+		return newScreenShot.getAbsolutePath();
+	}
+ 
 	public void sleep(int sec) {
 		try {
 			Thread.sleep(sec * 1000);

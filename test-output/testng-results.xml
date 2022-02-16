@@ -1,25 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-16T20:36:57Z" name="Default suite" finished-at="2022-02-16T20:38:06Z" duration-ms="68930">
+  <suite name="SmokeSuit" duration-ms="96" started-at="2022-02-16T21:57:02Z" finished-at="2022-02-16T21:57:02Z">
     <groups>
     </groups>
-    <test started-at="2022-02-16T20:36:57Z" name="Default test" finished-at="2022-02-16T20:38:06Z" duration-ms="68930">
+    <test name="SmokeTest" duration-ms="96" started-at="2022-02-16T21:57:02Z" finished-at="2022-02-16T21:57:02Z">
       <class name="chase.bank.tests.Testing">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-16T20:36:58Z" name="setUp" finished-at="2022-02-16T20:37:16Z" duration-ms="18122" status="PASS">
+        <test-method status="PASS" signature="initiatinExtentReport()[pri:0, instance:chase.bank.tests.Testing@6e20b53a]" name="initiatinExtentReport" is-config="true" duration-ms="738" started-at="2022-02-16T21:57:01Z" finished-at="2022-02-16T21:57:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiatinExtentReport -->
+        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:chase.bank.tests.Testing@6e20b53a]" name="beforeEachTest" is-config="true" duration-ms="43" started-at="2022-02-16T21:57:02Z" finished-at="2022-02-16T21:57:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void chase.bank.tests.Testing.creditCardPageTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:chase.bank.tests.Testing@6e20b53a]" name="setUp" is-config="true" duration-ms="0" started-at="2022-02-16T21:57:02Z" finished-at="2022-02-16T21:57:02Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in /Users/sananaeem/eclipse-workspace/chase.bank/testRunner.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in /Users/sananaeem/eclipse-workspace/chase.bank/testRunner.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="creditCardPageTest()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-16T20:37:16Z" name="creditCardPageTest" finished-at="2022-02-16T20:38:06Z" duration-ms="50295" status="PASS">
+        <test-method status="SKIP" signature="creditCardPageTest()[pri:0, instance:chase.bank.tests.Testing@6e20b53a]" name="creditCardPageTest" duration-ms="0" started-at="2022-02-16T21:57:02Z" finished-at="2022-02-16T21:57:02Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in /Users/sananaeem/eclipse-workspace/chase.bank/testRunner.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in /Users/sananaeem/eclipse-workspace/chase.bank/testRunner.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creditCardPageTest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-16T20:38:06Z" name="tearUp" finished-at="2022-02-16T20:38:06Z" duration-ms="446" status="PASS">
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:chase.bank.tests.Testing@6e20b53a]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2022-02-16T21:57:02Z" finished-at="2022-02-16T21:57:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearUp -->
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:chase.bank.tests.Testing@6e20b53a]" name="endReport" is-config="true" duration-ms="825" started-at="2022-02-16T21:57:02Z" finished-at="2022-02-16T21:57:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
       </class> <!-- chase.bank.tests.Testing -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- SmokeSuit -->
 </testng-results>
