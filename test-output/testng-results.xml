@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-09T21:43:20Z" name="Default suite" finished-at="2022-02-09T21:44:22Z" duration-ms="61813">
+  <suite started-at="2022-02-16T20:36:57Z" name="Default suite" finished-at="2022-02-16T20:38:06Z" duration-ms="68930">
     <groups>
     </groups>
-    <test started-at="2022-02-09T21:43:20Z" name="Default test" finished-at="2022-02-09T21:44:22Z" duration-ms="61813">
+    <test started-at="2022-02-16T20:36:57Z" name="Default test" finished-at="2022-02-16T20:38:06Z" duration-ms="68930">
       <class name="chase.bank.tests.Testing">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-09T21:43:20Z" name="setUp" finished-at="2022-02-09T21:43:29Z" duration-ms="9596" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-16T20:36:58Z" name="setUp" finished-at="2022-02-16T20:37:16Z" duration-ms="18122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="creditCardPageTest()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-09T21:43:29Z" name="creditCardPageTest" finished-at="2022-02-09T21:44:21Z" duration-ms="51755" status="PASS">
+        <test-method signature="creditCardPageTest()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-16T20:37:16Z" name="creditCardPageTest" finished-at="2022-02-16T20:38:06Z" duration-ms="50295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creditCardPageTest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-09T21:44:21Z" name="tearUp" finished-at="2022-02-09T21:44:22Z" duration-ms="412" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:chase.bank.tests.Testing@4b23c30a]" started-at="2022-02-16T20:38:06Z" name="tearUp" finished-at="2022-02-16T20:38:06Z" duration-ms="446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
