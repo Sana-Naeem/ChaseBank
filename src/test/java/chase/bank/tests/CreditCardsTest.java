@@ -31,6 +31,7 @@ public class CreditCardsTest extends Base_class {
 		list.add(new ApplicantInfoDataClass("John", "Jay", "JR", "02/12/1980", "Grace Santos", "SOCIAL_SECURITY_NUMBER",
 				"323-44-5324", "DOMESTIC", "2304 Westchester Ave", "10462", "Bronx", "NY", "JohnJay@gmail.com",
 				"866-960-0890", "RENT", "EMPLOYED", "60,000"));
+		
 		// ApplicantInfoDataClass autoData1 = new ApplicantInfoDataClass("---enter
 		// arguments");
 		// list.add(autoData1); ------>this is another way to do it
@@ -38,7 +39,7 @@ public class CreditCardsTest extends Base_class {
 	}
 
 	@DataProvider(name = "applicantDataExcel") //data provider annotation to use in excel no values put here
-	public Object[][] getAutoDataExcel() {
+	public Object[][] getApplicantDataExcel() {
 		String filePath = Configurable.getInstance().getExcelPath();
 		int sheetNum = Configurable.getInstance().getSheetNum();
 		ExcelReader reader = new ExcelReader(filePath, sheetNum);
@@ -71,12 +72,12 @@ public class CreditCardsTest extends Base_class {
 	}
 	
 	@Test(dependsOnMethods = {"creditCardTesting"}, ignoreMissingDependencies = true)
-	public void testMethodAuto() {
+	public void testMethodApplicant() {
 		Logger.log("this is an auto related test 0");
 	}
 	
 	@Test(groups = {"applicant"})
-	public void testMethodAuto1() {
+	public void testMethodApplicant1() {
 		Logger.log("this is an auto related test 1");
 	}
 

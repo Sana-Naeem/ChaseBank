@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-SmokeSuit">
-              <span class="suite-name border-skipped">SmokeSuit</span>
+            <a href="#" class="navigator-link" panel-name="suite-SmokeSuite">
+              <span class="suite-name border-failed">SmokeSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-SmokeSuit">
+                  <a href="#" class="navigator-link " panel-name="test-xml-SmokeSuite">
                     <span>testRunner.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-SmokeSuit">
+                  <a href="#" class="navigator-link " panel-name="testlist-SmokeSuite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-SmokeSuit">
-                    <span>0 groups</span>
+                  <a href="#" class="navigator-link " panel-name="group-SmokeSuite">
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-SmokeSuit">
+                  <a href="#" class="navigator-link " panel-name="times-SmokeSuite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-SmokeSuit">
+                  <a href="#" class="navigator-link " panel-name="reporter-SmokeSuite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-SmokeSuit">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SmokeSuite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-SmokeSuit">
+                  <a href="#" class="navigator-link " panel-name="chronological-SmokeSuite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,21 +91,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">3 methods, 3 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-SmokeSuit" class="hide-methods skipped suite-SmokeSuit"> (hide)</a> <!-- hide-methods skipped suite-SmokeSuit -->
-                      <a href="#" panel-name="suite-SmokeSuit" class="show-methods skipped suite-SmokeSuit"> (show)</a> <!-- show-methods skipped suite-SmokeSuit -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SmokeSuite" class="hide-methods failed suite-SmokeSuite"> (hide)</a> <!-- hide-methods failed suite-SmokeSuite -->
+                      <a href="#" panel-name="suite-SmokeSuite" class="show-methods failed suite-SmokeSuite"> (show)</a> <!-- show-methods failed suite-SmokeSuite -->
                     </span>
-                    <div class="method-list-content skipped suite-SmokeSuit">
+                    <div class="method-list-content failed suite-SmokeSuite">
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SmokeSuit" title="chase.bank.tests.Testing" hash-for-method="creditCardPageTest">creditCardPageTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeSuite" title="chase.bank.tests.CreditCardsTest" hash-for-method="creditCardTestingWithIteratorDataProvider(chase.bank.data.ApplicantInfoDataClass@78ac1102)">creditCardTestingWithIteratorDataProvider(chase.bank.data.ApplicantInfoDataClass@78ac1102)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-SmokeSuit -->
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeSuite" title="chase.bank.tests.CreditCardsWithExtentReport" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeSuite" title="chase.bank.tests.CreditCardsWithExtentReport" hash-for-method="test2">test2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SmokeSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,29 +126,59 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-SmokeSuit" class="panel SmokeSuit">
-          <div class="suite-SmokeSuit-class-skipped">
+        <div panel-name="suite-SmokeSuite" class="panel SmokeSuite">
+          <div class="suite-SmokeSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">chase.bank.tests.Testing</span>
+              <img src="failed.png"/>
+              <span class="class-name">chase.bank.tests.CreditCardsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="creditCardPageTest">
-                  </a> <!-- creditCardPageTest -->
-                  <span class="method-name">creditCardPageTest</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/sananaeem/eclipse-workspace/chase.bank/testRunner.xml
+                  <a name="creditCardTestingWithIteratorDataProvider(chase.bank.data.ApplicantInfoDataClass@78ac1102)">
+                  </a> <!-- creditCardTestingWithIteratorDataProvider(chase.bank.data.ApplicantInfoDataClass@78ac1102) -->
+                  <span class="method-name">creditCardTestingWithIteratorDataProvider</span>
+                  <span class="parameters">(chase.bank.data.ApplicantInfoDataClass@78ac1102)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at chase.bank.tests.CreditCardsTest.creditCardTestingWithIteratorDataProvider(CreditCardsTest.java:51)
 ... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SmokeSuit-class-skipped -->
-        </div> <!-- panel SmokeSuit -->
-        <div panel-name="test-xml-SmokeSuit" class="panel">
+          </div> <!-- suite-SmokeSuite-class-failed -->
+          <div class="suite-SmokeSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">chase.bank.tests.CreditCardsWithExtentReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1">
+                  </a> <!-- test1 -->
+                  <span class="method-name">test1</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at chase.bank.tests.CreditCardsWithExtentReport.test1(CreditCardsWithExtentReport.java:55)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2">
+                  </a> <!-- test2 -->
+                  <span class="method-name">test2</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at chase.bank.tests.CreditCardsWithExtentReport.test2(CreditCardsWithExtentReport.java:60)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeSuite-class-failed -->
+        </div> <!-- panel SmokeSuite -->
+        <div panel-name="test-xml-SmokeSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">/Users/sananaeem/eclipse-workspace/chase.bank/testRunner.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -146,101 +186,158 @@ in /Users/sananaeem/eclipse-workspace/chase.bank/testRunner.xml
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SmokeSuit&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;SmokeTest&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SmokeSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;smoke&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;mybrowser&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;applicant&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;chase.bank.tests.Testing&quot;/&gt;
+      &lt;class name=&quot;chase.bank.tests.CreditCardsTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;creditCardTestingWithIteratorDataProvider&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- chase.bank.tests.CreditCardsTest --&gt;
+      &lt;class name=&quot;chase.bank.tests.CreditCardsWithExtentReport&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;test1&quot;/&gt;
+          &lt;include name=&quot;test2&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- chase.bank.tests.CreditCardsWithExtentReport --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- SmokeTest --&gt;
-&lt;/suite&gt; &lt;!-- SmokeSuit --&gt;
+  &lt;/test&gt; &lt;!-- smoke --&gt;
+&lt;/suite&gt; &lt;!-- SmokeSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-SmokeSuit" class="panel">
+        <div panel-name="testlist-SmokeSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for SmokeSuit</span>
+            <span class="header-content">Tests for SmokeSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">SmokeTest (1 class)</span>
+                <span class="test-name">smoke (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-SmokeSuit" class="panel">
+        <div panel-name="group-SmokeSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for SmokeSuit</span>
+            <span class="header-content">Groups for SmokeSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">applicant</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">creditCardTestingWithIteratorDataProvider</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-SmokeSuit" class="panel">
+        <div panel-name="times-SmokeSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for SmokeSuit</span>
+            <span class="header-content">Times for SmokeSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_SmokeSuit');
-function tableData_SmokeSuit() {
+suiteTableInitFunctions.push('tableData_SmokeSuite');
+function tableData_SmokeSuite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'creditCardPageTest')
-data.setCell(0, 2, 'chase.bank.tests.Testing')
-data.setCell(0, 3, 0);
-window.suiteTableData['SmokeSuit']= { tableData: data, tableDiv: 'times-div-SmokeSuit'}
+data.setCell(0, 1, 'test1')
+data.setCell(0, 2, 'chase.bank.tests.CreditCardsWithExtentReport')
+data.setCell(0, 3, 20);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'creditCardTestingWithIteratorDataProvider')
+data.setCell(1, 2, 'chase.bank.tests.CreditCardsTest')
+data.setCell(1, 3, 16);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test2')
+data.setCell(2, 2, 'chase.bank.tests.CreditCardsWithExtentReport')
+data.setCell(2, 3, 5);
+window.suiteTableData['SmokeSuite']= { tableData: data, tableDiv: 'times-div-SmokeSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
-              <div id="times-div-SmokeSuit">
-              </div> <!-- times-div-SmokeSuit -->
+              <span class="suite-total-time">Total running time: 41 ms</span>
+              <div id="times-div-SmokeSuite">
+              </div> <!-- times-div-SmokeSuite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-SmokeSuit" class="panel">
+        <div panel-name="reporter-SmokeSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for SmokeSuit</span>
+            <span class="header-content">Reporter output for SmokeSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-SmokeSuit" class="panel">
+        <div panel-name="ignored-methods-SmokeSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">5 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">chase.bank.tests.CreditCardsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testMethodAuto</span>
+                <br/>
+                <span class="ignored-method-name">creditCardTestingWithExcelDataProbider</span>
+                <br/>
+                <span class="ignored-method-name">testMethodAuto1</span>
+                <br/>
+                <span class="ignored-method-name">creditCardPageTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">chase.bank.tests.CreditCardsWithExtentReport</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">creditCardTestingWithExcelDataProbider</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-SmokeSuit" class="panel">
+        <div panel-name="chronological-SmokeSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">chase.bank.tests.Testing</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">chase.bank.tests.CreditCardsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">creditCardPageTest</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">creditCardTestingWithIteratorDataProvider(chase.bank.data.ApplicantInfoDataClass@78ac1102)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-suite before">
-                <span class="method-name">initiatinExtentReport</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeEachTest(public void chase.bank.tests.Testing.creditCardPageTest() throws java.lang.InterruptedException)</span>
-                <span class="method-start">768 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-suite after">
-                <span class="method-name">endReport</span>
-                <span class="method-start">917 ms</span>
-              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chase.bank.tests.CreditCardsWithExtentReport</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test1</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test2</span>
+                <span class="method-start">57 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

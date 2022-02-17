@@ -41,7 +41,7 @@ public class Base_class {
 
 	public static Common_waits common_waits;
 	public static Common_methods common_methods;
-	public Configurable configurable;
+	public Configurable configurable; 
 
 	public CreditCardsPage creditCardsPage;
 	public ApplyNowPage applyNowPage;

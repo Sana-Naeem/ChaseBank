@@ -26,7 +26,7 @@ ExtentReports report;
 	}
 	
 	@DataProvider(name = "applicantDataExcel")
-	public Object[][] getAutoDataExcel(){
+	public Object[][] getApplicantDataExcel(){
 		String filePath = Configurable.getInstance().getExcelPath();
 		int sheetNum = Configurable.getInstance().getSheetNum();
 		ExcelReader reader = new ExcelReader(filePath, sheetNum);
@@ -35,7 +35,7 @@ ExtentReports report;
 	}
 	
 	@Test(dataProvider = "applicantDataExcel", groups = "auto")
-	public void creditCardTestingWithExcelDataProbider(String firstName, String lastName, String suffixValue,
+	public void creditCardTestingWithExcelDataProvider(String firstName, String lastName, String suffixValue,
 			String dob, String mothersName, String taxID, String socialSecurityNum, String addressType,
 			String streetAddress, String zipCode, String city, String state, String email, String phoneNum,
 			String residence, String income, String grossIncome) {
@@ -47,7 +47,7 @@ ExtentReports report;
 				socialSecurityNum, addressType, streetAddress, zipCode, city, state, email, phoneNum, residence, income,
 				grossIncome);
 	
-		report.createTest("creditCardTestingWithExcelDataProbider").log(Status.PASS, "This Test case has been passed");
+		report.createTest("creditCardTestingWithExcelDataProvider").log(Status.PASS, "This Test case has been passed");
 	}
 	
 	@Test
