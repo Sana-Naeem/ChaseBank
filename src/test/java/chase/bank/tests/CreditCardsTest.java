@@ -58,7 +58,7 @@ public class CreditCardsTest extends Base_class {
 
 	@Test(dataProvider = "applicantDataExcel", groups = { "applicant" }) 
 	// running test with data provider for excel, values written in excel sheet, only variable names shown here
-	public void creditCardTestingWithExcelDataProbider(String firstName, String lastName, String suffixValue,
+	public void creditCardTestingWithExcelDataProvider(String firstName, String lastName, String suffixValue,
 			String dob, String mothersName, String taxID, String socialSecurityNum, String addressType,
 			String streetAddress, String zipCode, String city, String state, String email, String phoneNum,
 			String residence, String income, String grossIncome) {
