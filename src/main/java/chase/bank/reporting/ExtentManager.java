@@ -20,9 +20,9 @@ private static ExtentReports extent;
 				
 				extent = new ExtentReports();
 				ExtentSparkReporter sparkReporter = new ExtentSparkReporter("./test-output/ExtentReports/ExtentReport_"+dateString+".html");
-				sparkReporter.config().setReportName("QA Automation for Progressive");
+				sparkReporter.config().setReportName("QA Automation for ChaseBank");
 				extent.attachReporter(sparkReporter);
-				extent.setSystemInfo("QA Team", "Avengers_Progressive");
+				extent.setSystemInfo("QA Team", "Credit_banking");
 				extent.setSystemInfo("Environment", "QA");
 				extent.setSystemInfo("Assigned Tester", System.getProperty("user.name"));
 				Java_logger.getLog("Reporting is starting ...");

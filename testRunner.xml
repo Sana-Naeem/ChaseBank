@@ -3,22 +3,10 @@
 <suite name="SmokeSuite">
 	<test name="smoke">
 		<parameter name="browser" value="mybrowser"></parameter>
-		<groups>
-			<run>
-				<include name="applicant"></include>
-			</run>
-		</groups>
 		<classes>
 			<class name="chase.bank.tests.CreditCardsTest">
-				<methods>
-					<include name="creditCardTestingWithIteratorDataProvider"></include>
-			</methods>
 			</class>
 			<class name="chase.bank.tests.CreditCardsWithExtentReport">
-				<methods>
-					<include name="test1"></include>
-					<include name="test2"></include>
-				</methods>
 			</class>
 		</classes>
 	</test> <!-- SmokeTest -->

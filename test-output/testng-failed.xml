@@ -3,23 +3,30 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeSuite]">
   <test thread-count="5" name="smoke(failed)">
     <parameter name="browser" value="mybrowser"/>
-    <groups>
-      <run>
-        <include name="applicant"/>
-      </run>
-    </groups>
     <classes>
-      <class name="chase.bank.tests.CreditCardsTest">
-        <methods>
-          <include name="creditCardTestingWithIteratorDataProvider" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- chase.bank.tests.CreditCardsTest -->
       <class name="chase.bank.tests.CreditCardsWithExtentReport">
         <methods>
-          <include name="test1"/>
-          <include name="test2"/>
+          <include name="initiatinExtentReport"/>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="afterEachTest"/>
+          <include name="creditCardTestingWithExcelDataProvider"/>
+          <include name="beforeEachTest"/>
+          <include name="extentSetup"/>
+          <include name="finishReport"/>
         </methods>
       </class> <!-- chase.bank.tests.CreditCardsWithExtentReport -->
+      <class name="chase.bank.tests.CreditCardsTest">
+        <methods>
+          <include name="initiatinExtentReport"/>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="afterEachTest"/>
+          <include name="creditCardPageTest"/>
+          <include name="beforeEachTest"/>
+          <include name="creditCardTestingWithExcelDataProvider"/>
+        </methods>
+      </class> <!-- chase.bank.tests.CreditCardsTest -->
     </classes>
   </test> <!-- smoke(failed) -->
 </suite> <!-- Failed suite [SmokeSuite] -->
