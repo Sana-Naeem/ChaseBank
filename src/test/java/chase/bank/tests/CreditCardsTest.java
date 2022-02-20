@@ -32,6 +32,7 @@ public class CreditCardsTest extends Base_class {
 				"323-44-5324", "DOMESTIC", "2304 Westchester Ave", "10462", "Bronx", "NY", "JohnJay@gmail.com",
 				"866-960-0890", "RENT", "EMPLOYED", "60,000"));
 		
+		
 		// ApplicantInfoDataClass autoData1 = new ApplicantInfoDataClass("---enter
 		// arguments");
 		// list.add(autoData1); ------>this is another way to do it

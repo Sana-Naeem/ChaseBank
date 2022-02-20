@@ -15,8 +15,8 @@ public class ExcelReadWrite {
 
 	
 	public static void main(String[] args) throws IOException {
-		readingExcel("./inputFiles/Students.xlsx");
-		writeInExcel("./inputFiles/Students.xlsx", "Passed", 0, 1, 2);
+		readingExcel("./inputFiles/applicants info.xlsx");
+		writeInExcel("./inputFiles/applicants info.xlsx", "Passed", 0, 1, 2);
 	}
 	
 	public static void readingExcel(String file) throws IOException {

@@ -9,57 +9,25 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">SmokeSuite</th></tr>
-<tr><td><a href="#t0">smoke</a></td><td class="num">5</td><td class="num attn">2</td><td class="num attn">1</td><td class="num">169,650</td><td></td><td></td></tr>
+<tr><td><a href="#t0">smoke</a></td><td class="num">6</td><td class="num attn">2</td><td class="num">0</td><td class="num">157,897</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SmokeSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">smoke &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">chase.bank.tests.CreditCardsTest</td><td><a href="#m0">creditCardPageTest</a></td><td rowspan="1">1645225790486</td><td rowspan="1">59994</td></tr><tr><th colspan="4">smoke &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">chase.bank.tests.CreditCardsTest</td><td><a href="#m1">creditCardTestingWithExcelDataProvider</a></td><td rowspan="1">1645225682000</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">chase.bank.tests.CreditCardsWithExtentReport</td><td><a href="#m2">creditCardTestingWithExcelDataProvider</a></td><td rowspan="1">1645225766608</td><td rowspan="1">0</td></tr><tr><th colspan="4">smoke &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">chase.bank.tests.CreditCardsTest</td><td><a href="#m3">creditCardTestingWithIteratorDataProvider</a></td><td rowspan="1">1645225699696</td><td rowspan="1">50892</td></tr><tr class="passedeven"><td><a href="#m4">testMethodApplicant</a></td><td rowspan="1">1645225758429</td><td rowspan="1">3</td></tr><tr class="passedeven"><td><a href="#m5">testMethodApplicant1</a></td><td rowspan="1">1645225766283</td><td rowspan="1">4</td></tr><tr class="passedodd"><td rowspan="2">chase.bank.tests.CreditCardsWithExtentReport</td><td><a href="#m6">test1</a></td><td rowspan="1">1645225774140</td><td rowspan="1">20</td></tr><tr class="passedodd"><td><a href="#m7">test2</a></td><td rowspan="1">1645225782628</td><td rowspan="1">4</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SmokeSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">smoke &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">chase.bank.tests.CreditCardsTest</td><td><a href="#m0">creditCardTestingWithExcelDataProvider</a></td><td rowspan="1">1645307702662</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">chase.bank.tests.CreditCardsWithExtentReport</td><td><a href="#m1">creditCardTestingWithExcelDataProvider</a></td><td rowspan="1">1645307784642</td><td rowspan="1">0</td></tr><tr><th colspan="4">smoke &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">chase.bank.tests.CreditCardsTest</td><td><a href="#m2">creditCardPageTest</a></td><td rowspan="1">1645307807147</td><td rowspan="1">52778</td></tr><tr class="passedeven"><td><a href="#m3">creditCardTestingWithIteratorDataProvider</a></td><td rowspan="1">1645307717404</td><td rowspan="1">53128</td></tr><tr class="passedeven"><td><a href="#m4">testMethodApplicant</a></td><td rowspan="1">1645307777809</td><td rowspan="1">3</td></tr><tr class="passedeven"><td><a href="#m5">testMethodApplicant1</a></td><td rowspan="1">1645307784283</td><td rowspan="1">2</td></tr><tr class="passedodd"><td rowspan="2">chase.bank.tests.CreditCardsWithExtentReport</td><td><a href="#m6">test1</a></td><td rowspan="1">1645307790861</td><td rowspan="1">4</td></tr><tr class="passedodd"><td><a href="#m7">test2</a></td><td rowspan="1">1645307797768</td><td rowspan="1">2</td></tr></tbody>
 </table>
-<h2>smoke</h2><h3 id="m0">chase.bank.tests.CreditCardsTest#creditCardPageTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 15.000
-  (Session info: chrome=98.0.4758.102)
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;Sanas-Air&apos;, ip: &apos;fe80:0:0:0:4ed:f2dc:9199:a9a0%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_311&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bf2cb906d7aeb3f464083717a51ee914, findElement {using=xpath, value=//h1[contains(., &apos;get started.&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /var/folders/2q/13m492rd6xj...}, goog:chromeOptions: {debuggerAddress: localhost:52531}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52531/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bf2cb906d7aeb3f464083717a51ee914
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	at chase.bank.common.Common_waits.waitUntilVisible(Common_waits.java:23)
-	at chase.bank.common.Common_methods.getText(Common_methods.java:42)
-	at chase.bank.pages.FreedomUnlimitedAppPage.getTextFreedomUnlimitedStep(FreedomUnlimitedAppPage.java:20)
-	at chase.bank.pages.FreedomUnlimitedAppPage.FreedomUnlimitedSteps(FreedomUnlimitedAppPage.java:30)
-	at chase.bank.tests.CreditCardsTest.creditCardPageTest(CreditCardsTest.java:21)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">chase.bank.tests.CreditCardsTest#creditCardTestingWithExcelDataProvider</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
+<h2>smoke</h2><h3 id="m0">chase.bank.tests.CreditCardsTest#creditCardTestingWithExcelDataProvider</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
 Caused by: java.lang.NullPointerException
 	at chase.bank.reporting.Logger.log(Logger.java:10)
 	at chase.bank.utilities.ExcelReader.&lt;init&gt;(ExcelReader.java:26)
-	at chase.bank.tests.CreditCardsTest.getApplicantDataExcel(CreditCardsTest.java:45)
+	at chase.bank.tests.CreditCardsTest.getApplicantDataExcel(CreditCardsTest.java:46)
 	... 22 more
 ... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">chase.bank.tests.CreditCardsWithExtentReport#creditCardTestingWithExcelDataProvider</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
+<h3 id="m1">chase.bank.tests.CreditCardsWithExtentReport#creditCardTestingWithExcelDataProvider</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
 Caused by: java.lang.NullPointerException
 	at chase.bank.utilities.ExcelReader.&lt;init&gt;(ExcelReader.java:43)
 	at chase.bank.tests.CreditCardsWithExtentReport.getApplicantDataExcel(CreditCardsWithExtentReport.java:32)
 	... 22 more
 ... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">chase.bank.tests.CreditCardsTest#creditCardTestingWithIteratorDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chase.bank.data.ApplicantInfoDataClass@4ba89729</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">chase.bank.tests.CreditCardsTest#creditCardPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">chase.bank.tests.CreditCardsTest#creditCardTestingWithIteratorDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chase.bank.data.ApplicantInfoDataClass@a50ae65</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m4">chase.bank.tests.CreditCardsTest#testMethodApplicant</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">this is an auto related test 0<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m5">chase.bank.tests.CreditCardsTest#testMethodApplicant1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">this is an auto related test 1<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m6">chase.bank.tests.CreditCardsWithExtentReport#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>

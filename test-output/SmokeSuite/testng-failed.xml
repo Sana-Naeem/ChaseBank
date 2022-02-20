@@ -22,7 +22,6 @@
           <include name="setUp"/>
           <include name="endReport"/>
           <include name="afterEachTest"/>
-          <include name="creditCardPageTest"/>
           <include name="beforeEachTest"/>
           <include name="creditCardTestingWithExcelDataProvider"/>
         </methods>
