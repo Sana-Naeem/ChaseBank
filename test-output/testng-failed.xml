@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeSuite]">
-  <test thread-count="5" name="smoke(failed)">
-    <parameter name="browser" value="mybrowser"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="chase.bank.tests.CreditCardsWithExtentReport">
         <methods>
@@ -10,22 +9,12 @@
           <include name="setUp"/>
           <include name="endReport"/>
           <include name="afterEachTest"/>
-          <include name="creditCardTestingWithExcelDataProvider"/>
+          <include name="creditCardTestingWithExcelDataProvider" invocation-numbers="0"/>
           <include name="beforeEachTest"/>
           <include name="extentSetup"/>
           <include name="finishReport"/>
         </methods>
       </class> <!-- chase.bank.tests.CreditCardsWithExtentReport -->
-      <class name="chase.bank.tests.CreditCardsTest">
-        <methods>
-          <include name="initiatinExtentReport"/>
-          <include name="setUp"/>
-          <include name="endReport"/>
-          <include name="afterEachTest"/>
-          <include name="beforeEachTest"/>
-          <include name="creditCardTestingWithExcelDataProvider"/>
-        </methods>
-      </class> <!-- chase.bank.tests.CreditCardsTest -->
     </classes>
-  </test> <!-- smoke(failed) -->
-</suite> <!-- Failed suite [SmokeSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

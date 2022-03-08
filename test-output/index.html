@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-SmokeSuite">
-              <span class="suite-name border-skipped">SmokeSuite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-SmokeSuite">
-                    <span>testRunner.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-SmokeSuite">
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-SmokeSuite">
-                    <span>2 groups</span>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-SmokeSuite">
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-SmokeSuite">
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-SmokeSuite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-SmokeSuite">
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,65 +91,50 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,  2 skipped,  6 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-SmokeSuite" class="hide-methods skipped suite-SmokeSuite"> (hide)</a> <!-- hide-methods skipped suite-SmokeSuite -->
-                      <a href="#" panel-name="suite-SmokeSuite" class="show-methods skipped suite-SmokeSuite"> (show)</a> <!-- show-methods skipped suite-SmokeSuite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content skipped suite-SmokeSuite">
+                    <div class="method-list-content failed suite-Default_suite">
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SmokeSuite" title="chase.bank.tests.CreditCardsWithExtentReport" hash-for-method="creditCardTestingWithExcelDataProvider">creditCardTestingWithExcelDataProvider</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="chase.bank.tests.CreditCardsWithExtentReport" hash-for-method="creditCardTestingWithExcelDataProvider(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null)">creditCardTestingWithExcelDataProvider(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SmokeSuite" title="chase.bank.tests.CreditCardsTest" hash-for-method="creditCardTestingWithExcelDataProvider">creditCardTestingWithExcelDataProvider</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-SmokeSuite -->
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-SmokeSuite" class="hide-methods passed suite-SmokeSuite"> (hide)</a> <!-- hide-methods passed suite-SmokeSuite -->
-                      <a href="#" panel-name="suite-SmokeSuite" class="show-methods passed suite-SmokeSuite"> (show)</a> <!-- show-methods passed suite-SmokeSuite -->
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content passed suite-SmokeSuite">
+                    <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SmokeSuite" title="chase.bank.tests.CreditCardsTest" hash-for-method="creditCardPageTest">creditCardPageTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="chase.bank.tests.CreditCardsWithExtentReport" hash-for-method="creditCardTestingWithExcelDataProvider(John, doe, JR, 01/23/1996, Sylvia Plath, SOCIAL_SECURITY_NUMBER, 843-24-2313, DOMESTIC, 2401 Westche...)">creditCardTestingWithExcelDataProvider(John, doe, JR, 01/23/1996, Sylvia Plath, SOCIAL_SECURITY_NUMBER, 843-24-2313, DOMESTIC, 2401 Westche...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SmokeSuite" title="chase.bank.tests.CreditCardsTest" hash-for-method="creditCardTestingWithIteratorDataProvider(chase.bank.data.ApplicantInfoDataClass@a50ae65)">creditCardTestingWithIteratorDataProvider(chase.bank.data.ApplicantInfoDataClass@a50ae65)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="chase.bank.tests.CreditCardsWithExtentReport" hash-for-method="creditCardTestingWithExcelDataProvider(Jane, doe, JR, 03/03/1998, Jane Austin, SOCIAL_SECURITY_NUMBER, 013-42-1422, DOMESTIC, 2516 Boston R...)">creditCardTestingWithExcelDataProvider(Jane, doe, JR, 03/03/1998, Jane Austin, SOCIAL_SECURITY_NUMBER, 013-42-1422, DOMESTIC, 2516 Boston R...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SmokeSuite" title="chase.bank.tests.CreditCardsWithExtentReport" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="chase.bank.tests.CreditCardsWithExtentReport" hash-for-method="test1">test1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SmokeSuite" title="chase.bank.tests.CreditCardsWithExtentReport" hash-for-method="test2">test2</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="chase.bank.tests.CreditCardsWithExtentReport" hash-for-method="test2">test2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SmokeSuite" title="chase.bank.tests.CreditCardsTest" hash-for-method="testMethodApplicant">testMethodApplicant</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SmokeSuite" title="chase.bank.tests.CreditCardsTest" hash-for-method="testMethodApplicant1">testMethodApplicant1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-SmokeSuite -->
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -160,58 +145,84 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-SmokeSuite" class="panel SmokeSuite">
-          <div class="suite-SmokeSuite-class-skipped">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
               <span class="class-name">chase.bank.tests.CreditCardsWithExtentReport</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="creditCardTestingWithExcelDataProvider">
-                  </a> <!-- creditCardTestingWithExcelDataProvider -->
+                  <a name="creditCardTestingWithExcelDataProvider(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null)">
+                  </a> <!-- creditCardTestingWithExcelDataProvider(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null) -->
                   <span class="method-name">creditCardTestingWithExcelDataProvider</span>
-                  <div class="stack-trace">java.lang.RuntimeException: java.lang.NullPointerException
-Caused by: java.lang.NullPointerException
-	at chase.bank.utilities.ExcelReader.&lt;init&gt;(ExcelReader.java:43)
-	at chase.bank.tests.CreditCardsWithExtentReport.getApplicantDataExcel(CreditCardsWithExtentReport.java:32)
-	... 22 more
-... Removed 30 stack frames
+                  <span class="parameters">(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null)</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy20.sendKeys(Unknown Source)
+	at chase.bank.common.Common_methods.writeText(Common_methods.java:55)
+	at chase.bank.pages.ApplicantDetailsPage.enterFirstNameStep(ApplicantDetailsPage.java:66)
+	at chase.bank.pages.ApplicantDetailsPage.applicantInfoSteps(ApplicantDetailsPage.java:158)
+	at chase.bank.tests.CreditCardsWithExtentReport.creditCardTestingWithExcelDataProvider(CreditCardsWithExtentReport.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SmokeSuite-class-skipped -->
-          <div class="suite-SmokeSuite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">chase.bank.tests.CreditCardsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="creditCardTestingWithExcelDataProvider">
-                  </a> <!-- creditCardTestingWithExcelDataProvider -->
-                  <span class="method-name">creditCardTestingWithExcelDataProvider</span>
-                  <div class="stack-trace">java.lang.RuntimeException: java.lang.NullPointerException
-Caused by: java.lang.NullPointerException
-	at chase.bank.reporting.Logger.log(Logger.java:10)
-	at chase.bank.utilities.ExcelReader.&lt;init&gt;(ExcelReader.java:26)
-	at chase.bank.tests.CreditCardsTest.getApplicantDataExcel(CreditCardsTest.java:46)
-	... 22 more
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SmokeSuite-class-skipped -->
-          <div class="suite-SmokeSuite-class-passed">
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">chase.bank.tests.CreditCardsWithExtentReport</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="creditCardTestingWithExcelDataProvider(John, doe, JR, 01/23/1996, Sylvia Plath, SOCIAL_SECURITY_NUMBER, 843-24-2313, DOMESTIC, 2401 Westche...)">
+                  </a> <!-- creditCardTestingWithExcelDataProvider(John, doe, JR, 01/23/1996, Sylvia Plath, SOCIAL_SECURITY_NUMBER, 843-24-2313, DOMESTIC, 2401 Westche...) -->
+                  <span class="method-name">creditCardTestingWithExcelDataProvider</span>
+                  <span class="parameters">(John, doe, JR, 01/23/1996, Sylvia Plath, SOCIAL_SECURITY_NUMBER, 843-24-2313, DOMESTIC, 2401 Westchester Ave, 10462, bronx, NY, john123@yahoo.com, 353-632-6365, RENT, EMPLOYED, 45000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="creditCardTestingWithExcelDataProvider(Jane, doe, JR, 03/03/1998, Jane Austin, SOCIAL_SECURITY_NUMBER, 013-42-1422, DOMESTIC, 2516 Boston R...)">
+                  </a> <!-- creditCardTestingWithExcelDataProvider(Jane, doe, JR, 03/03/1998, Jane Austin, SOCIAL_SECURITY_NUMBER, 013-42-1422, DOMESTIC, 2516 Boston R...) -->
+                  <span class="method-name">creditCardTestingWithExcelDataProvider</span>
+                  <span class="parameters">(Jane, doe, JR, 03/03/1998, Jane Austin, SOCIAL_SECURITY_NUMBER, 013-42-1422, DOMESTIC, 2516 Boston Road, 10467, bronx, NY, jane123@yahoo.com, 134-422-5363, RENT, EMPLOYED, 70000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="test1">
@@ -227,328 +238,216 @@ Caused by: java.lang.NullPointerException
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SmokeSuite-class-passed -->
-          <div class="suite-SmokeSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">chase.bank.tests.CreditCardsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="creditCardPageTest">
-                  </a> <!-- creditCardPageTest -->
-                  <span class="method-name">creditCardPageTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="creditCardTestingWithIteratorDataProvider(chase.bank.data.ApplicantInfoDataClass@a50ae65)">
-                  </a> <!-- creditCardTestingWithIteratorDataProvider(chase.bank.data.ApplicantInfoDataClass@a50ae65) -->
-                  <span class="method-name">creditCardTestingWithIteratorDataProvider</span>
-                  <span class="parameters">(chase.bank.data.ApplicantInfoDataClass@a50ae65)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testMethodApplicant">
-                  </a> <!-- testMethodApplicant -->
-                  <span class="method-name">testMethodApplicant</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testMethodApplicant1">
-                  </a> <!-- testMethodApplicant1 -->
-                  <span class="method-name">testMethodApplicant1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SmokeSuite-class-passed -->
-        </div> <!-- panel SmokeSuite -->
-        <div panel-name="test-xml-SmokeSuite" class="panel">
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/sananaeem/eclipse-workspace/chase.bank/testRunner.xml</span>
+            <span class="header-content">/private/var/folders/2q/13m492rd6xjdqdbf1k0dclxw0000gn/T/testng-eclipse--1178459335/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SmokeSuite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;smoke&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;mybrowser&quot;/&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;chase.bank.tests.CreditCardsTest&quot;/&gt;
       &lt;class name=&quot;chase.bank.tests.CreditCardsWithExtentReport&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- smoke --&gt;
-&lt;/suite&gt; &lt;!-- SmokeSuite --&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-SmokeSuite" class="panel">
+        <div panel-name="testlist-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for SmokeSuite</span>
+            <span class="header-content">Tests for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">smoke (2 classes)</span>
+                <span class="test-name">Default test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-SmokeSuite" class="panel">
+        <div panel-name="group-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for SmokeSuite</span>
+            <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
               <span class="test-group-name">applicant</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">creditCardPageTest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">creditCardTestingWithExcelDataProvider</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">creditCardTestingWithIteratorDataProvider</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">testMethodApplicant1</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">auto</span>
-              <br/>
-              <div class="method-in-group">
                 <span class="method-in-group-name">creditCardTestingWithExcelDataProvider</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-SmokeSuite" class="panel">
+        <div panel-name="times-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for SmokeSuite</span>
+            <span class="header-content">Times for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_SmokeSuite');
-function tableData_SmokeSuite() {
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'creditCardTestingWithIteratorDataProvider')
-data.setCell(0, 2, 'chase.bank.tests.CreditCardsTest')
-data.setCell(0, 3, 53128);
+data.setCell(0, 1, 'creditCardTestingWithExcelDataProvider')
+data.setCell(0, 2, 'chase.bank.tests.CreditCardsWithExtentReport')
+data.setCell(0, 3, 53284);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'creditCardPageTest')
-data.setCell(1, 2, 'chase.bank.tests.CreditCardsTest')
-data.setCell(1, 3, 52778);
+data.setCell(1, 1, 'creditCardTestingWithExcelDataProvider')
+data.setCell(1, 2, 'chase.bank.tests.CreditCardsWithExtentReport')
+data.setCell(1, 3, 53255);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test1')
+data.setCell(2, 1, 'creditCardTestingWithExcelDataProvider')
 data.setCell(2, 2, 'chase.bank.tests.CreditCardsWithExtentReport')
-data.setCell(2, 3, 4);
+data.setCell(2, 3, 47465);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testMethodApplicant')
-data.setCell(3, 2, 'chase.bank.tests.CreditCardsTest')
-data.setCell(3, 3, 3);
+data.setCell(3, 1, 'test2')
+data.setCell(3, 2, 'chase.bank.tests.CreditCardsWithExtentReport')
+data.setCell(3, 3, 2);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testMethodApplicant1')
-data.setCell(4, 2, 'chase.bank.tests.CreditCardsTest')
+data.setCell(4, 1, 'test1')
+data.setCell(4, 2, 'chase.bank.tests.CreditCardsWithExtentReport')
 data.setCell(4, 3, 2);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'test2')
-data.setCell(5, 2, 'chase.bank.tests.CreditCardsWithExtentReport')
-data.setCell(5, 3, 2);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'creditCardTestingWithExcelDataProvider')
-data.setCell(6, 2, 'chase.bank.tests.CreditCardsWithExtentReport')
-data.setCell(6, 3, 0);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'creditCardTestingWithExcelDataProvider')
-data.setCell(7, 2, 'chase.bank.tests.CreditCardsTest')
-data.setCell(7, 3, 0);
-window.suiteTableData['SmokeSuite']= { tableData: data, tableDiv: 'times-div-SmokeSuite'}
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
-              <div id="times-div-SmokeSuite">
-              </div> <!-- times-div-SmokeSuite -->
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-SmokeSuite" class="panel">
+        <div panel-name="reporter-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for SmokeSuite</span>
+            <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testMethodApplicant1</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">this is an auto related test 1<br></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testMethodApplicant</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">this is an auto related test 0<br></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-SmokeSuite" class="panel">
+        <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">chase.bank.tests.CreditCardsWithExtentReport</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">initiatinExtentReport</span>
-                <br/>
-                <span class="ignored-method-name">endReport</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-SmokeSuite" class="panel">
+        <div panel-name="chronological-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">chase.bank.tests.CreditCardsTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">chase.bank.tests.CreditCardsWithExtentReport</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">initiatinExtentReport</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeEachTest(public void chase.bank.tests.CreditCardsTest.creditCardTestingWithIteratorDataProvider(chase.bank.da...)</span>
-                <span class="method-start">1220 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(mybrowser)</span>
-                <span class="method-start">1428 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">creditCardTestingWithIteratorDataProvider(chase.bank.data.ApplicantInfoDataClass@a50ae65)</span>
-                <span class="method-start">15891 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterEachTest([TestResult name=creditCardTestingWithIteratorDataProvider status=SUCCESS method=CreditCardsTest.cre...)</span>
-                <span class="method-start">69027 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeEachTest(public void chase.bank.tests.CreditCardsTest.testMethodApplicant())</span>
-                <span class="method-start">69655 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(mybrowser)</span>
-                <span class="method-start">69657 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testMethodApplicant</span>
-                <span class="method-start">76296 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterEachTest([TestResult name=testMethodApplicant status=SUCCESS method=CreditCardsTest.testMethodApplicant()[pri...)</span>
-                <span class="method-start">76304 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeEachTest(public void chase.bank.tests.CreditCardsTest.testMethodApplicant1())</span>
-                <span class="method-start">76537 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(mybrowser)</span>
-                <span class="method-start">76538 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testMethodApplicant1</span>
-                <span class="method-start">82770 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterEachTest([TestResult name=testMethodApplicant1 status=SUCCESS method=CreditCardsTest.testMethodApplicant1()[p...)</span>
-                <span class="method-start">82774 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">chase.bank.tests.CreditCardsWithExtentReport</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">extentSetup</span>
-                <span class="method-start">83118 ms</span>
+                <span class="method-start">747 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeEachTest(public void chase.bank.tests.CreditCardsWithExtentReport.test1())</span>
-                <span class="method-start">83132 ms</span>
+                <span class="method-name">beforeEachTest(public void chase.bank.tests.CreditCardsWithExtentReport.creditCardTestingWithExcelDataProvider(java...)</span>
+                <span class="method-start">2367 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(mybrowser)</span>
-                <span class="method-start">83134 ms</span>
+                <span class="method-name">setUp</span>
+                <span class="method-start">2397 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">creditCardTestingWithExcelDataProvider(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null)</span>
+                <span class="method-start">19051 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTest([TestResult name=creditCardTestingWithExcelDataProvider status=FAILURE method=CreditCardsWithExtentR...)</span>
+                <span class="method-start">66537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTest(public void chase.bank.tests.CreditCardsWithExtentReport.creditCardTestingWithExcelDataProvider(java...)</span>
+                <span class="method-start">67446 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">67448 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">creditCardTestingWithExcelDataProvider(Jane, doe, JR, 03/03/1998, Jane Austin, SOCIAL_SECURITY_NUMBER, 013-42-1422, DOMESTIC, 2516 Boston R...)</span>
+                <span class="method-start">75006 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTest([TestResult name=creditCardTestingWithExcelDataProvider status=SUCCESS method=CreditCardsWithExtentR...)</span>
+                <span class="method-start">128263 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTest(public void chase.bank.tests.CreditCardsWithExtentReport.creditCardTestingWithExcelDataProvider(java...)</span>
+                <span class="method-start">128907 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">128908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">creditCardTestingWithExcelDataProvider(John, doe, JR, 01/23/1996, Sylvia Plath, SOCIAL_SECURITY_NUMBER, 843-24-2313, DOMESTIC, 2401 Westche...)</span>
+                <span class="method-start">135522 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTest([TestResult name=creditCardTestingWithExcelDataProvider status=SUCCESS method=CreditCardsWithExtentR...)</span>
+                <span class="method-start">188811 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTest(public void chase.bank.tests.CreditCardsWithExtentReport.test1())</span>
+                <span class="method-start">189309 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">189311 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test1</span>
-                <span class="method-start">89348 ms</span>
+                <span class="method-start">196006 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTest([TestResult name=test1 status=SUCCESS method=CreditCardsWithExtentReport.test1()[pri:0, instance:cha...)</span>
-                <span class="method-start">89354 ms</span>
+                <span class="method-start">196014 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeEachTest(public void chase.bank.tests.CreditCardsWithExtentReport.test2())</span>
-                <span class="method-start">89694 ms</span>
+                <span class="method-start">196399 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(mybrowser)</span>
-                <span class="method-start">89695 ms</span>
+                <span class="method-name">setUp</span>
+                <span class="method-start">196401 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test2</span>
-                <span class="method-start">96255 ms</span>
+                <span class="method-start">203340 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTest([TestResult name=test2 status=SUCCESS method=CreditCardsWithExtentReport.test2()[pri:0, instance:cha...)</span>
-                <span class="method-start">96259 ms</span>
+                <span class="method-start">203344 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">finishReport</span>
-                <span class="method-start">96544 ms</span>
+                <span class="method-start">203585 ms</span>
               </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">chase.bank.tests.CreditCardsTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeEachTest(public void chase.bank.tests.CreditCardsTest.creditCardPageTest() throws java.lang.InterruptedExcept...)</span>
-                <span class="method-start">97687 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(mybrowser)</span>
-                <span class="method-start">97687 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">creditCardPageTest</span>
-                <span class="method-start">105634 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterEachTest([TestResult name=creditCardPageTest status=SUCCESS method=CreditCardsTest.creditCardPageTest()[pri:1...)</span>
-                <span class="method-start">158416 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">endReport</span>
-                <span class="method-start">159062 ms</span>
+                <span class="method-start">204559 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

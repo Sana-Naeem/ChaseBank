@@ -1,299 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="0" ignored="2" total="10" passed="6">
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
   <reporter-output>
     <line>
-      <![CDATA[File Not Found @ ./inputFiles/applicants info.xlsx <br>]]>
-    </line>
-    <line>
-      <![CDATA[My OS version is Mac OS X<br>]]>
-    </line>
-    <line>
-      <![CDATA[My OS version is Mac OS X<br>]]>
-    </line>
-    <line>
-      <![CDATA[this is an auto related test 0<br>]]>
-    </line>
-    <line>
-      <![CDATA[My OS version is Mac OS X<br>]]>
-    </line>
-    <line>
-      <![CDATA[this is an auto related test 1<br>]]>
-    </line>
-    <line>
-      <![CDATA[File Not Found @ ./inputFiles/applicants info.xlsx <br>]]>
-    </line>
-    <line>
-      <![CDATA[My OS version is Mac OS X<br>]]>
-    </line>
-    <line>
-      <![CDATA[My OS version is Mac OS X<br>]]>
-    </line>
-    <line>
-      <![CDATA[My OS version is Mac OS X<br>]]>
+      <![CDATA[Screenshot cannot saved 
+/Users/sananaeem/eclipse-workspace/chase.bank/screenShots/creditCardTestingWithExcelDataProvider_03.07.2022_19.34.55_errorShot.png (No such file or directory)<br>]]>
     </line>
   </reporter-output>
-  <suite name="SmokeSuite" duration-ms="157897" started-at="2022-02-19T21:55:02Z" finished-at="2022-02-19T21:57:40Z">
+  <suite name="Default suite" duration-ms="203731" started-at="2022-03-08T00:33:50Z" finished-at="2022-03-08T00:37:13Z">
     <groups>
-      <group name="auto">
-        <method signature="CreditCardsWithExtentReport.creditCardTestingWithExcelDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@1d29cf23]" name="creditCardTestingWithExcelDataProvider" class="chase.bank.tests.CreditCardsWithExtentReport"/>
-      </group> <!-- auto -->
       <group name="applicant">
-        <method signature="CreditCardsTest.creditCardPageTest()[pri:1, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="creditCardPageTest" class="chase.bank.tests.CreditCardsTest"/>
-        <method signature="CreditCardsTest.creditCardTestingWithExcelDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="creditCardTestingWithExcelDataProvider" class="chase.bank.tests.CreditCardsTest"/>
-        <method signature="CreditCardsTest.creditCardTestingWithIteratorDataProvider(chase.bank.data.ApplicantInfoDataClass)[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="creditCardTestingWithIteratorDataProvider" class="chase.bank.tests.CreditCardsTest"/>
-        <method signature="CreditCardsTest.testMethodApplicant1()[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="testMethodApplicant1" class="chase.bank.tests.CreditCardsTest"/>
+        <method signature="CreditCardsWithExtentReport.creditCardTestingWithExcelDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="creditCardTestingWithExcelDataProvider" class="chase.bank.tests.CreditCardsWithExtentReport"/>
       </group> <!-- applicant -->
     </groups>
-    <test name="smoke" duration-ms="157897" started-at="2022-02-19T21:55:02Z" finished-at="2022-02-19T21:57:40Z">
-      <class name="chase.bank.tests.CreditCardsTest">
-        <test-method status="PASS" signature="initiatinExtentReport()[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="initiatinExtentReport" is-config="true" duration-ms="1102" started-at="2022-02-19T21:55:01Z" finished-at="2022-02-19T21:55:02Z">
+    <test name="Default test" duration-ms="203731" started-at="2022-03-08T00:33:50Z" finished-at="2022-03-08T00:37:13Z">
+      <class name="chase.bank.tests.CreditCardsWithExtentReport">
+        <test-method status="PASS" signature="initiatinExtentReport()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="initiatinExtentReport" is-config="true" duration-ms="731" started-at="2022-03-08T00:33:49Z" finished-at="2022-03-08T00:33:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiatinExtentReport -->
-        <test-method status="SKIP" signature="creditCardTestingWithExcelDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="creditCardTestingWithExcelDataProvider" duration-ms="0" started-at="2022-02-19T21:55:02Z" data-provider="applicantDataExcel" finished-at="2022-02-19T21:55:02Z">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.lang.NullPointerException]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NullPointerException
-at chase.bank.reporting.Logger.log(Logger.java:10)
-at chase.bank.utilities.ExcelReader.<init>(ExcelReader.java:26)
-at chase.bank.tests.CreditCardsTest.getApplicantDataExcel(CreditCardsTest.java:46)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creditCardTestingWithExcelDataProvider -->
-        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="beforeEachTest" is-config="true" duration-ms="208" started-at="2022-02-19T21:55:02Z" finished-at="2022-02-19T21:55:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void chase.bank.tests.CreditCardsTest.creditCardTestingWithIteratorDataProvider(chase.bank.data.ApplicantInfoDataClass)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="setUp" is-config="true" duration-ms="14463" started-at="2022-02-19T21:55:02Z" finished-at="2022-02-19T21:55:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mybrowser]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[My OS version is Mac OS X<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="creditCardTestingWithIteratorDataProvider(chase.bank.data.ApplicantInfoDataClass)[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="creditCardTestingWithIteratorDataProvider" duration-ms="53128" started-at="2022-02-19T21:55:17Z" data-provider="applicantData" finished-at="2022-02-19T21:56:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chase.bank.data.ApplicantInfoDataClass@a50ae65]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creditCardTestingWithIteratorDataProvider -->
-        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="afterEachTest" is-config="true" duration-ms="625" started-at="2022-02-19T21:56:10Z" finished-at="2022-02-19T21:56:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=creditCardTestingWithIteratorDataProvider status=SUCCESS method=CreditCardsTest.creditCardTestingWithIteratorDataProvider(chase.bank.data.ApplicantInfoDataClass)[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="beforeEachTest" is-config="true" duration-ms="2" started-at="2022-02-19T21:56:11Z" finished-at="2022-02-19T21:56:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void chase.bank.tests.CreditCardsTest.testMethodApplicant()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="setUp" is-config="true" duration-ms="6639" started-at="2022-02-19T21:56:11Z" finished-at="2022-02-19T21:56:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mybrowser]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[My OS version is Mac OS X<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testMethodApplicant()[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="testMethodApplicant" duration-ms="3" started-at="2022-02-19T21:56:17Z" depends-on-methods="creditCardTesting" finished-at="2022-02-19T21:56:17Z">
-          <reporter-output>
-            <line>
-              <![CDATA[this is an auto related test 0<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testMethodApplicant -->
-        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="afterEachTest" is-config="true" duration-ms="233" started-at="2022-02-19T21:56:17Z" finished-at="2022-02-19T21:56:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testMethodApplicant status=SUCCESS method=CreditCardsTest.testMethodApplicant()[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880] output=this is an auto related test 0<br>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="beforeEachTest" is-config="true" duration-ms="1" started-at="2022-02-19T21:56:18Z" finished-at="2022-02-19T21:56:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void chase.bank.tests.CreditCardsTest.testMethodApplicant1()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="setUp" is-config="true" duration-ms="6232" started-at="2022-02-19T21:56:18Z" finished-at="2022-02-19T21:56:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mybrowser]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[My OS version is Mac OS X<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testMethodApplicant1()[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="testMethodApplicant1" duration-ms="2" started-at="2022-02-19T21:56:24Z" finished-at="2022-02-19T21:56:24Z">
-          <reporter-output>
-            <line>
-              <![CDATA[this is an auto related test 1<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testMethodApplicant1 -->
-        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="afterEachTest" is-config="true" duration-ms="341" started-at="2022-02-19T21:56:24Z" finished-at="2022-02-19T21:56:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testMethodApplicant1 status=SUCCESS method=CreditCardsTest.testMethodApplicant1()[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880] output=this is an auto related test 1<br>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="setUp" is-config="true" duration-ms="7946" started-at="2022-02-19T21:56:39Z" finished-at="2022-02-19T21:56:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mybrowser]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[My OS version is Mac OS X<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2022-02-19T21:56:39Z" finished-at="2022-02-19T21:56:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void chase.bank.tests.CreditCardsTest.creditCardPageTest() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="creditCardPageTest()[pri:1, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="creditCardPageTest" duration-ms="52778" started-at="2022-02-19T21:56:47Z" finished-at="2022-02-19T21:57:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creditCardPageTest -->
-        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="afterEachTest" is-config="true" duration-ms="583" started-at="2022-02-19T21:57:39Z" finished-at="2022-02-19T21:57:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=creditCardPageTest status=SUCCESS method=CreditCardsTest.creditCardPageTest()[pri:1, instance:chase.bank.tests.CreditCardsTest@27a5f880] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:chase.bank.tests.CreditCardsTest@27a5f880]" name="endReport" is-config="true" duration-ms="340" started-at="2022-02-19T21:57:40Z" finished-at="2022-02-19T21:57:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- chase.bank.tests.CreditCardsTest -->
-      <class name="chase.bank.tests.CreditCardsWithExtentReport">
-        <test-method status="PASS" signature="extentSetup()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@1d29cf23]" name="extentSetup" is-config="true" duration-ms="6" started-at="2022-02-19T21:56:24Z" finished-at="2022-02-19T21:56:24Z">
+        <test-method status="PASS" signature="extentSetup()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="extentSetup" is-config="true" duration-ms="1" started-at="2022-03-08T00:33:50Z" finished-at="2022-03-08T00:33:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method status="SKIP" signature="creditCardTestingWithExcelDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@1d29cf23]" name="creditCardTestingWithExcelDataProvider" duration-ms="0" started-at="2022-02-19T21:56:24Z" data-provider="applicantDataExcel" finished-at="2022-02-19T21:56:24Z">
-          <exception class="java.lang.RuntimeException">
+        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="beforeEachTest" is-config="true" duration-ms="29" started-at="2022-03-08T00:33:51Z" finished-at="2022-03-08T00:33:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void chase.bank.tests.CreditCardsWithExtentReport.creditCardTestingWithExcelDataProvider(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="setUp" is-config="true" duration-ms="16654" started-at="2022-03-08T00:33:51Z" finished-at="2022-03-08T00:34:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="creditCardTestingWithExcelDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="creditCardTestingWithExcelDataProvider" duration-ms="47465" started-at="2022-03-08T00:34:08Z" data-provider="applicantDataExcel1" finished-at="2022-03-08T00:34:55Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value is-null="true"/>
+            </param>
+            <param index="12">
+              <value is-null="true"/>
+            </param>
+            <param index="13">
+              <value is-null="true"/>
+            </param>
+            <param index="14">
+              <value is-null="true"/>
+            </param>
+            <param index="15">
+              <value is-null="true"/>
+            </param>
+            <param index="16">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
             <message>
-              <![CDATA[java.lang.NullPointerException]]>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:92)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy20.sendKeys(Unknown Source)
+at chase.bank.common.Common_methods.writeText(Common_methods.java:55)
+at chase.bank.pages.ApplicantDetailsPage.enterFirstNameStep(ApplicantDetailsPage.java:66)
+at chase.bank.pages.ApplicantDetailsPage.applicantInfoSteps(ApplicantDetailsPage.java:158)
+at chase.bank.tests.CreditCardsWithExtentReport.creditCardTestingWithExcelDataProvider(CreditCardsWithExtentReport.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
@@ -311,24 +133,262 @@ at org.testng.TestNG.run(TestNG.java:1017)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NullPointerException
-at chase.bank.utilities.ExcelReader.<init>(ExcelReader.java:43)
-at chase.bank.tests.CreditCardsWithExtentReport.getApplicantDataExcel(CreditCardsWithExtentReport.java:32)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-... 22 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creditCardTestingWithExcelDataProvider -->
-        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@1d29cf23]" name="beforeEachTest" is-config="true" duration-ms="2" started-at="2022-02-19T21:56:24Z" finished-at="2022-02-19T21:56:24Z">
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="afterEachTest" is-config="true" duration-ms="905" started-at="2022-03-08T00:34:55Z" finished-at="2022-03-08T00:34:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=creditCardTestingWithExcelDataProvider status=FAILURE method=CreditCardsWithExtentReport.creditCardTestingWithExcelDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot cannot saved 
+/Users/sananaeem/eclipse-workspace/chase.bank/screenShots/creditCardTestingWithExcelDataProvider_03.07.2022_19.34.55_errorShot.png (No such file or directory)<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="beforeEachTest" is-config="true" duration-ms="2" started-at="2022-03-08T00:34:56Z" finished-at="2022-03-08T00:34:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void chase.bank.tests.CreditCardsWithExtentReport.creditCardTestingWithExcelDataProvider(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="setUp" is-config="true" duration-ms="7558" started-at="2022-03-08T00:34:56Z" finished-at="2022-03-08T00:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="creditCardTestingWithExcelDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="creditCardTestingWithExcelDataProvider" duration-ms="53255" started-at="2022-03-08T00:35:04Z" data-provider="applicantDataExcel1" finished-at="2022-03-08T00:35:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[doe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[JR]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[03/03/1998]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Jane Austin]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SOCIAL_SECURITY_NUMBER]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[013-42-1422]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[DOMESTIC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2516 Boston Road]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[10467]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[bronx]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[NY]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[jane123@yahoo.com]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[134-422-5363]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[RENT]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMPLOYED]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[70000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditCardTestingWithExcelDataProvider -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="afterEachTest" is-config="true" duration-ms="644" started-at="2022-03-08T00:35:57Z" finished-at="2022-03-08T00:35:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=creditCardTestingWithExcelDataProvider status=SUCCESS method=CreditCardsWithExtentReport.creditCardTestingWithExcelDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="beforeEachTest" is-config="true" duration-ms="1" started-at="2022-03-08T00:35:58Z" finished-at="2022-03-08T00:35:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void chase.bank.tests.CreditCardsWithExtentReport.creditCardTestingWithExcelDataProvider(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="setUp" is-config="true" duration-ms="6614" started-at="2022-03-08T00:35:58Z" finished-at="2022-03-08T00:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="creditCardTestingWithExcelDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="creditCardTestingWithExcelDataProvider" duration-ms="53284" started-at="2022-03-08T00:36:04Z" data-provider="applicantDataExcel1" finished-at="2022-03-08T00:36:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[doe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[JR]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01/23/1996]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sylvia Plath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SOCIAL_SECURITY_NUMBER]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[843-24-2313]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[DOMESTIC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2401 Westchester Ave]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[10462]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[bronx]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[NY]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[john123@yahoo.com]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[353-632-6365]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[RENT]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[EMPLOYED]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[45000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditCardTestingWithExcelDataProvider -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="afterEachTest" is-config="true" duration-ms="496" started-at="2022-03-08T00:36:58Z" finished-at="2022-03-08T00:36:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=creditCardTestingWithExcelDataProvider status=SUCCESS method=CreditCardsWithExtentReport.creditCardTestingWithExcelDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="beforeEachTest" is-config="true" duration-ms="2" started-at="2022-03-08T00:36:58Z" finished-at="2022-03-08T00:36:58Z">
           <params>
             <param index="0">
               <value>
@@ -339,36 +399,26 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(Met
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@1d29cf23]" name="setUp" is-config="true" duration-ms="6214" started-at="2022-02-19T21:56:24Z" finished-at="2022-02-19T21:56:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mybrowser]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="setUp()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="setUp" is-config="true" duration-ms="6695" started-at="2022-03-08T00:36:58Z" finished-at="2022-03-08T00:37:05Z">
           <reporter-output>
-            <line>
-              <![CDATA[My OS version is Mac OS X<br>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@1d29cf23]" name="test1" duration-ms="4" started-at="2022-02-19T21:56:30Z" finished-at="2022-02-19T21:56:30Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="test1" duration-ms="2" started-at="2022-03-08T00:37:05Z" finished-at="2022-03-08T00:37:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@1d29cf23]" name="afterEachTest" is-config="true" duration-ms="340" started-at="2022-02-19T21:56:30Z" finished-at="2022-02-19T21:56:31Z">
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="afterEachTest" is-config="true" duration-ms="384" started-at="2022-03-08T00:37:05Z" finished-at="2022-03-08T00:37:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test1 status=SUCCESS method=CreditCardsWithExtentReport.test1()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@1d29cf23] output={null}]]]>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=CreditCardsWithExtentReport.test1()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@1d29cf23]" name="beforeEachTest" is-config="true" duration-ms="1" started-at="2022-02-19T21:56:31Z" finished-at="2022-02-19T21:56:31Z">
+        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="beforeEachTest" is-config="true" duration-ms="2" started-at="2022-03-08T00:37:05Z" finished-at="2022-03-08T00:37:05Z">
           <params>
             <param index="0">
               <value>
@@ -379,40 +429,34 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(Met
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@1d29cf23]" name="setUp" is-config="true" duration-ms="6560" started-at="2022-02-19T21:56:31Z" finished-at="2022-02-19T21:56:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mybrowser]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="setUp()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="setUp" is-config="true" duration-ms="6939" started-at="2022-03-08T00:37:05Z" finished-at="2022-03-08T00:37:12Z">
           <reporter-output>
-            <line>
-              <![CDATA[My OS version is Mac OS X<br>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@1d29cf23]" name="test2" duration-ms="2" started-at="2022-02-19T21:56:37Z" finished-at="2022-02-19T21:56:37Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="test2" duration-ms="2" started-at="2022-03-08T00:37:12Z" finished-at="2022-03-08T00:37:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@1d29cf23]" name="afterEachTest" is-config="true" duration-ms="285" started-at="2022-02-19T21:56:37Z" finished-at="2022-02-19T21:56:38Z">
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="afterEachTest" is-config="true" duration-ms="241" started-at="2022-03-08T00:37:12Z" finished-at="2022-03-08T00:37:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test2 status=SUCCESS method=CreditCardsWithExtentReport.test2()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@1d29cf23] output={null}]]]>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=CreditCardsWithExtentReport.test2()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="finishReport()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@1d29cf23]" name="finishReport" is-config="true" duration-ms="1142" started-at="2022-02-19T21:56:38Z" finished-at="2022-02-19T21:56:39Z">
+        <test-method status="PASS" signature="finishReport()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="finishReport" is-config="true" duration-ms="874" started-at="2022-03-08T00:37:12Z" finished-at="2022-03-08T00:37:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishReport -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:chase.bank.tests.CreditCardsWithExtentReport@3ce1e309]" name="endReport" is-config="true" duration-ms="328" started-at="2022-03-08T00:37:13Z" finished-at="2022-03-08T00:37:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
       </class> <!-- chase.bank.tests.CreditCardsWithExtentReport -->
-    </test> <!-- smoke -->
-  </suite> <!-- SmokeSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

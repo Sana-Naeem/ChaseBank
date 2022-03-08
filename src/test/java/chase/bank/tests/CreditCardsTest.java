@@ -25,7 +25,7 @@ public class CreditCardsTest extends Base_class {
 
 	}
 
-	@DataProvider(name = "applicantData") // data provider annotation values are hard coded here so that multiple diff values can be put each time
+	@DataProvider(name = "applicantData") // data provider annotation values are inserted here so that multiple diff values can be put each time
 	public Iterator<ApplicantInfoDataClass> getAutoData() {
 		ArrayList<ApplicantInfoDataClass> list = new ArrayList<>();
 		list.add(new ApplicantInfoDataClass("John", "Jay", "JR", "02/12/1980", "Grace Santos", "SOCIAL_SECURITY_NUMBER",

@@ -13,7 +13,7 @@ import chase.bank.base.Base_class;
 import chase.bank.utilities.Configurable;
 import chase.bank.utilities.ExcelReader;
 
-
+//This class is used to show that we can put both extent report and data provider in one class
 public class CreditCardsWithExtentReport extends Base_class{
 
 ExtentReports report;
@@ -25,16 +25,17 @@ ExtentReports report;
 		report.attachReporter(spark);
 	}
 	
-	@DataProvider(name = "applicantDataExcel")
+	@DataProvider(name = "applicantDataExcel1")
 	public Object[][] getApplicantDataExcel(){
 		String filePath = Configurable.getInstance().getExcelPath();
 		int sheetNum = Configurable.getInstance().getSheetNum();
 		ExcelReader reader = new ExcelReader(filePath, sheetNum);
 		Object[][] data = reader.testData();
+		System.out.println(data.length);
 		return data;
 	}
 	
-	@Test(dataProvider = "applicantDataExcel", groups = "auto")
+	@Test(dataProvider = "applicantDataExcel1", groups = "applicant")
 	public void creditCardTestingWithExcelDataProvider(String firstName, String lastName, String suffixValue,
 			String dob, String mothersName, String taxID, String socialSecurityNum, String addressType,
 			String streetAddress, String zipCode, String city, String state, String email, String phoneNum,

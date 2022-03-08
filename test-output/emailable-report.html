@@ -8,29 +8,52 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">SmokeSuite</th></tr>
-<tr><td><a href="#t0">smoke</a></td><td class="num">6</td><td class="num attn">2</td><td class="num">0</td><td class="num">157,897</td><td></td><td></td></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">203,731</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SmokeSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">smoke &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">chase.bank.tests.CreditCardsTest</td><td><a href="#m0">creditCardTestingWithExcelDataProvider</a></td><td rowspan="1">1645307702662</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">chase.bank.tests.CreditCardsWithExtentReport</td><td><a href="#m1">creditCardTestingWithExcelDataProvider</a></td><td rowspan="1">1645307784642</td><td rowspan="1">0</td></tr><tr><th colspan="4">smoke &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">chase.bank.tests.CreditCardsTest</td><td><a href="#m2">creditCardPageTest</a></td><td rowspan="1">1645307807147</td><td rowspan="1">52778</td></tr><tr class="passedeven"><td><a href="#m3">creditCardTestingWithIteratorDataProvider</a></td><td rowspan="1">1645307717404</td><td rowspan="1">53128</td></tr><tr class="passedeven"><td><a href="#m4">testMethodApplicant</a></td><td rowspan="1">1645307777809</td><td rowspan="1">3</td></tr><tr class="passedeven"><td><a href="#m5">testMethodApplicant1</a></td><td rowspan="1">1645307784283</td><td rowspan="1">2</td></tr><tr class="passedodd"><td rowspan="2">chase.bank.tests.CreditCardsWithExtentReport</td><td><a href="#m6">test1</a></td><td rowspan="1">1645307790861</td><td rowspan="1">4</td></tr><tr class="passedodd"><td><a href="#m7">test2</a></td><td rowspan="1">1645307797768</td><td rowspan="1">2</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">chase.bank.tests.CreditCardsWithExtentReport</td><td><a href="#m0">creditCardTestingWithExcelDataProvider</a></td><td rowspan="1">1646699648332</td><td rowspan="1">47465</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">chase.bank.tests.CreditCardsWithExtentReport</td><td><a href="#m1">creditCardTestingWithExcelDataProvider</a></td><td rowspan="2">1646699764803</td><td rowspan="2">53284</td></tr><tr class="passedeven"><td><a href="#m2">creditCardTestingWithExcelDataProvider</a></td></tr><tr class="passedeven"><td><a href="#m3">test1</a></td><td rowspan="1">1646699825287</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m4">test2</a></td><td rowspan="1">1646699832621</td><td rowspan="1">2</td></tr></tbody>
 </table>
-<h2>smoke</h2><h3 id="m0">chase.bank.tests.CreditCardsTest#creditCardTestingWithExcelDataProvider</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
-Caused by: java.lang.NullPointerException
-	at chase.bank.reporting.Logger.log(Logger.java:10)
-	at chase.bank.utilities.ExcelReader.&lt;init&gt;(ExcelReader.java:26)
-	at chase.bank.tests.CreditCardsTest.getApplicantDataExcel(CreditCardsTest.java:46)
-	... 22 more
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">chase.bank.tests.CreditCardsWithExtentReport#creditCardTestingWithExcelDataProvider</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
-Caused by: java.lang.NullPointerException
-	at chase.bank.utilities.ExcelReader.&lt;init&gt;(ExcelReader.java:43)
-	at chase.bank.tests.CreditCardsWithExtentReport.getApplicantDataExcel(CreditCardsWithExtentReport.java:32)
-	... 22 more
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">chase.bank.tests.CreditCardsTest#creditCardPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">chase.bank.tests.CreditCardsTest#creditCardTestingWithIteratorDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chase.bank.data.ApplicantInfoDataClass@a50ae65</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">chase.bank.tests.CreditCardsTest#testMethodApplicant</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">this is an auto related test 0<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">chase.bank.tests.CreditCardsTest#testMethodApplicant1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">this is an auto related test 1<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">chase.bank.tests.CreditCardsWithExtentReport#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">chase.bank.tests.CreditCardsWithExtentReport#test2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">chase.bank.tests.CreditCardsWithExtentReport#creditCardTestingWithExcelDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th></tr><tr class="param stripe"><td>null</td><td>null</td><td>null</td><td>null</td><td>null</td><td>null</td><td>null</td><td>null</td><td>null</td><td>null</td><td>null</td><td>null</td><td>null</td><td>null</td><td>null</td><td>null</td><td>null</td></tr><tr><th colspan="17">Exception</th></tr><tr><td colspan="17"><div class="stacktrace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy20.sendKeys(Unknown Source)
+	at chase.bank.common.Common_methods.writeText(Common_methods.java:55)
+	at chase.bank.pages.ApplicantDetailsPage.enterFirstNameStep(ApplicantDetailsPage.java:66)
+	at chase.bank.pages.ApplicantDetailsPage.applicantInfoSteps(ApplicantDetailsPage.java:158)
+	at chase.bank.tests.CreditCardsWithExtentReport.creditCardTestingWithExcelDataProvider(CreditCardsWithExtentReport.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">chase.bank.tests.CreditCardsWithExtentReport#creditCardTestingWithExcelDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th></tr><tr class="param stripe"><td>John</td><td>doe</td><td>JR</td><td>01/23/1996</td><td>Sylvia Plath</td><td>SOCIAL_SECURITY_NUMBER</td><td>843-24-2313</td><td>DOMESTIC</td><td>2401 Westchester Ave</td><td>10462</td><td>bronx</td><td>NY</td><td>john123@yahoo.com</td><td>353-632-6365</td><td>RENT</td><td>EMPLOYED</td><td>45000</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">chase.bank.tests.CreditCardsWithExtentReport#creditCardTestingWithExcelDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th></tr><tr class="param stripe"><td>Jane</td><td>doe</td><td>JR</td><td>03/03/1998</td><td>Jane Austin</td><td>SOCIAL_SECURITY_NUMBER</td><td>013-42-1422</td><td>DOMESTIC</td><td>2516 Boston Road</td><td>10467</td><td>bronx</td><td>NY</td><td>jane123@yahoo.com</td><td>134-422-5363</td><td>RENT</td><td>EMPLOYED</td><td>70000</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">chase.bank.tests.CreditCardsWithExtentReport#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">chase.bank.tests.CreditCardsWithExtentReport#test2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -4,6 +4,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -45,15 +47,21 @@ public class ExcelReader {
 	
 	public String[][] testData(){
 		String[][] data = null;
-		int totalRows = sheet.getLastRowNum();
+		int totalRows = sheet.getLastRowNum() + 1;
+		System.out.println("Total Rows : " + totalRows);
 		int totalCells = sheet.getRow(0).getLastCellNum();
+		
+		DataFormatter formatter = new DataFormatter();
 		data = new String[totalRows][totalCells];
 		
 		for(int i = 1; i < totalRows; i++) {
 			Row row = sheet.getRow(i);
 			for(int j = 0; j < totalCells; j++) {
 				try {
-					data[i][j] = row.getCell(j).getStringCellValue();
+					Cell cell = row.getCell(j);
+					data[i][j] = formatter.formatCellValue(cell);
+					//data[i][j] = cell.getStringCellValue();
+					System.out.println(data[i][j]);
 				}catch(NullPointerException e) {
 					data[i][j] = "";
 				}
